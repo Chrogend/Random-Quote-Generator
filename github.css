@@ -1,0 +1,69 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+#video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container{
+    background: transparent;
+    color: aliceblue;
+    width: 700px;
+    text-align: center;
+    border: none;
+    height: 30px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.button{
+    margin:50px auto;
+    height: 50px;
+    width: 250px;
+    font-style: oblique;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+    background-color:  rgb(140, 181, 140);
+    transition:  0.3s;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+.button:hover{
+border: solid black;
+background-color:rgb(96, 129, 96) ;
+
+}
+.display{
+    margin: 30px auto;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+#muteBtn{
+    width: 100px;
+    background-color: rgb(140, 181, 140);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-style: oblique;
+    }
+#muteBtn:hover{
+border: solid black;
+background-color:rgb(96, 129, 96) ;
+}
